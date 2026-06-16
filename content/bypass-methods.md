@@ -1,8 +1,17 @@
 ---
-title: Overview of Bypass Methods
+title: "Lesson 6: Pick the Right Tool"
 ---
 
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 6 OF 6</span>
+  <span class="lesson-banner-time">⏱ 3 minutes</span>
+</div>
+
+# Pick the Right Tool
+
 This page provides a comparative overview of the main methods for bypassing internet restrictions. Each method has different trade-offs in terms of privacy, speed, ease of use, and resilience against blocking.
+
+Now that you've learned about each tool individually, use this page to compare them side-by-side and decide what's best for your situation.
 
 ---
 
@@ -27,7 +36,7 @@ This page provides a comparative overview of the main methods for bypassing inte
 What are you trying to do?
 │
 ├─ Browse a blocked website quickly?
-│   ├─ Is it just DNS-blocked? → Change DNS ([[dns-filtering]])
+│   ├─ Is it just DNS-blocked? → Change DNS ([[dns-filtering|Lesson 2]])
 │   └─ Is it IP-blocked? → Use a [[proxies|proxy]] or [[vpns|VPN]]
 │
 ├─ Browse privately without your ISP seeing?
@@ -53,7 +62,7 @@ What are you trying to do?
 **Limitations**: You must trust the VPN provider; provider IPs can be blocked.
 **Cost**: £3–£12/month for a reliable provider.
 **Setup complexity**: Low (download client → connect).
-**Learn more**: [[vpns|VPNs guide]]
+**Learn more**: [[vpns|Lesson 3: VPNs guide]]
 
 ### Tor — Strongest anonymity
 
@@ -61,7 +70,7 @@ What are you trying to do?
 **Limitations**: Slow, not suitable for streaming, exit node can eavesdrop on unencrypted traffic.
 **Cost**: Free.
 **Setup complexity**: Low (download Tor Browser → connect).
-**Learn more**: [[tor|Tor guide]]
+**Learn more**: [[tor|Lesson 4: Tor guide]]
 
 ### Proxies — Lightweight IP masking
 
@@ -69,7 +78,7 @@ What are you trying to do?
 **Limitations**: No encryption (unless HTTPS), application-specific, easily detected.
 **Cost**: Free (public proxies) or £ (paid proxy services).
 **Setup complexity**: Low–moderate.
-**Learn more**: [[proxies|Proxies guide]]
+**Learn more**: [[proxies|Lesson 5: Proxies guide]]
 
 ### SSH Tunnels — Technical but reliable
 
@@ -86,7 +95,7 @@ Creates an encrypted tunnel through any server you have SSH access to. No specia
 
 ### DNS Changes — Simplest bypass for DNS blocks
 
-If a site is blocked only at the DNS level (common with ISP-level blocks), switching to a public DNS resolver is the fastest fix. See [[dns-filtering]] for setup instructions.
+If a site is blocked only at the DNS level (common with ISP-level blocks), switching to a public DNS resolver is the fastest fix. See [[dns-filtering|Lesson 2: DNS guide]] for setup instructions.
 
 ### Bridges and Pluggable Transports — For heavily censored environments
 
@@ -137,10 +146,7 @@ For maximum resilience, combine methods:
 
 ---
 
-## Related
-
-- [[vpns|VPNs — Virtual Private Networks]]
-- [[tor|Tor — The Onion Router]]
-- [[proxies|Proxies — How They Compare]]
-- [[dns-filtering|DNS Filtering]]
-- [[open-letter-to-the-government|Open Letter to the Government]]
+<div class="lesson-nav">
+  <a href="proxies" class="lesson-nav-prev">← Previous: Try Proxies</a>
+  <a href="open-letter-to-the-government" class="lesson-nav-next">Read the Open Letter →</a>
+</div>

@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Clearnet
+  pageTitle: Clearnet Tutorial
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: ""
   locale: en-US
-  baseUrl: ignoblia.github.io/clearnet
+  baseUrl: localhost
   ignorePatterns:
     - private
     - templates
@@ -109,12 +109,7 @@ plugins:
     options: {}
     order: 45
   - source: github:quartz-community/encrypted-pages
-    enabled: true
-    options:
-      iterations: 600000
-      passwordField: password
-      unlistWhenEncrypted: false
-      outputPath: static/encryptedContentIndex.json
+    enabled: false
   - source: github:quartz-community/stacked-pages
     enabled: false
     layout:
@@ -148,10 +143,7 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
-    layout:
-      position: right
-      priority: 10
+    enabled: false
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -215,8 +207,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/ignoblia/clearnet
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

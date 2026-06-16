@@ -41,6 +41,120 @@
   margin-top: 0.5rem;
 }
 
+// ─── Lesson Banner (top of each lesson page) ────────────
+.lesson-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--highlight);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.lesson-banner-label {
+  font-weight: 700;
+  color: var(--secondary);
+  letter-spacing: 0.05em;
+}
+
+.lesson-banner-time {
+  color: var(--gray);
+}
+
+// ─── Lesson List (index page) ───────────────────────────
+.lesson-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--secondary);
+  border-radius: 8px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lesson-card:hover {
+  border-color: var(--secondary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.lesson-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.1rem;
+}
+
+.lesson-number {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--secondary);
+  letter-spacing: 0.05em;
+}
+
+.lesson-time {
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+
+.lesson-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.lesson-card h3 a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.lesson-card h3 a:hover {
+  color: var(--secondary);
+}
+
+.lesson-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--gray);
+}
+
+// ─── Lesson Navigation (bottom of each lesson page) ────
+.lesson-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--lightgray);
+  flex-wrap: wrap;
+}
+
+.lesson-nav-prev,
+.lesson-nav-next {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.lesson-nav-prev:hover,
+.lesson-nav-next:hover {
+  background: var(--highlight);
+}
+
 // ─── Featured Guide Callout ─────────────────────────────
 .guide-featured {
   display: flex;
@@ -116,6 +230,12 @@
   .markdown-preview-view th,
   .markdown-preview-view td {
     padding: 0.4rem 0.5rem;
+  }
+
+  .lesson-nav {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
   }
 }
 

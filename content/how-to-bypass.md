@@ -1,8 +1,15 @@
 ---
-title: How to Bypass — A Practical Guide
+title: "Lesson 1: Get Unblocked Now"
 ---
 
-This is the quickstart. If you just need to get past a block **right now**, pick the method that matches your situation and follow the steps. No theory — just what to do.
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 1 OF 6</span>
+  <span class="lesson-banner-time">⏱ 2 minutes</span>
+</div>
+
+# Get Unblocked Now
+
+This is the **quickstart**. If you just need to get past a block **right now**, pick the method that matches your situation and follow the steps. No theory — just what to do.
 
 ---
 
@@ -73,7 +80,7 @@ A VPN encrypts everything and routes it through a server in a different location
 
 ### Step-by-Step
 
-1. **Pick a provider** (see [[vpns|VPN guide]] for details on choosing). For beginners:
+1. **Pick a provider** (see [[vpns|Lesson 3: VPN guide]] for details on choosing). For beginners:
    - **Mullvad** — £5/month, no personal details needed, accepts cash.
    - **ProtonVPN** — Free tier available (limited speed, no logs).
    - **IVPN** — £6/month, audited no-log policy.
@@ -149,7 +156,7 @@ If you have SSH access to a server in another country, this creates a SOCKS5 pro
 ssh -D 1080 -N -f user@your-server.com
 ```
 
-Then configure your browser to use **SOCKS5 proxy** at `127.0.0.1:1080`. All browser traffic will be forwarded through your server, encrypted. See [[proxies|the proxies guide]] for details.
+Then configure your browser to use **SOCKS5 proxy** at `127.0.0.1:1080`. All browser traffic will be forwarded through your server, encrypted. See [[proxies|Lesson 5: Proxies guide]] for details.
 
 ---
 
@@ -175,14 +182,11 @@ Then configure your browser to use **SOCKS5 proxy** at `127.0.0.1:1080`. All bro
 | Need free option now | Download Tor Browser | 5 min |
 | Tor is also blocked | Use bridges (obfs4) | 5 min |
 | Everything blocked (authoritarian firewall) | Tor + WebTunnel bridges, or Snowflake | 10 min |
-| Just need to check one thing quickly | Try `textise dot iitty` or a text-mode proxy | 1 min |
+| Just need to check one thing quickly | Try a text-mode proxy | 1 min |
 
 ---
 
-## Related
-
-- [[vpns|Full VPN guide]]
-- [[tor|Full Tor guide]]
-- [[proxies|Full Proxies guide]]
-- [[dns-filtering|DNS Filtering explained]]
-- [[bypass-methods|Comparison of all methods]]
+<div class="lesson-nav">
+  <a href="index" class="lesson-nav-prev">← Back to Home</a>
+  <a href="dns-filtering" class="lesson-nav-next">Next Lesson: Change Your DNS →</a>
+</div>

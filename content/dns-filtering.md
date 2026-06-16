@@ -1,6 +1,13 @@
 ---
-title: DNS Filtering
+title: "Lesson 2: Change Your DNS"
 ---
+
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 2 OF 6</span>
+  <span class="lesson-banner-time">⏱ 3 minutes</span>
+</div>
+
+# Change Your DNS
 
 **DNS filtering** is a method of controlling which websites can be accessed on a network by blocking domain name resolution for undesirable sites. When a user tries to visit a blocked domain, the DNS resolver returns a non-routable address (e.g., `0.0.0.0`) or a block page instead of the real IP address.
 
@@ -141,8 +148,7 @@ As argued in the [[open-letter-to-the-government|Open Letter to the Government]]
 
 ---
 
-## Related
-
-- [[open-letter-to-the-government|Open Letter to the Government]]
-- [[vpns|VPNs — Virtual Private Networks]]
-- [[bypass-methods|Overview of Bypass Methods]]
+<div class="lesson-nav">
+  <a href="how-to-bypass" class="lesson-nav-prev">← Previous: Get Unblocked Now</a>
+  <a href="vpns" class="lesson-nav-next">Next Lesson: Use a VPN →</a>
+</div>

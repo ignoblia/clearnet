@@ -1,6 +1,13 @@
 ---
-title: VPNs (Virtual Private Networks)
+title: "Lesson 3: Use a VPN"
 ---
+
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 3 OF 6</span>
+  <span class="lesson-banner-time">⏱ 10 minutes</span>
+</div>
+
+# Use a VPN
 
 A **Virtual Private Network (VPN)** is one of the most widely used tools for bypassing internet restrictions. It creates an encrypted tunnel between your device and a server operated by the VPN provider, routing all of your internet traffic through that server. To anyone monitoring your connection — your ISP, a government firewall, or a network administrator — the traffic appears to be going to the VPN server and nothing more.
 
@@ -134,7 +141,7 @@ Encryption and routing through a remote server adds latency and can reduce throu
 | **Ads** | Common | Rare |
 | **Business model concern** | You are the product | Subscription-funded |
 
-**Recommendation**: Avoid free VPNs unless you have thoroughly vetted them. Many free VPNs have been caught logging, injecting ads, or selling bandwidth. If you cannot afford a paid VPN, consider using Tor instead (see [[tor|Tor guide]]).
+**Recommendation**: Avoid free VPNs unless you have thoroughly vetted them. Many free VPNs have been caught logging, injecting ads, or selling bandwidth. If you cannot afford a paid VPN, consider using Tor instead (see [[tor|Lesson 4: Tor guide]]).
 
 ---
 
@@ -150,8 +157,7 @@ Encryption and routing through a remote server adds latency and can reduce throu
 
 ---
 
-## Related
-
-- [[proxies|Proxies — How They Compare to VPNs]]
-- [[tor|Tor — The Onion Router]]
-- [[bypass-methods|Overview of Bypass Methods]]
+<div class="lesson-nav">
+  <a href="dns-filtering" class="lesson-nav-prev">← Previous: Change Your DNS</a>
+  <a href="tor" class="lesson-nav-next">Next Lesson: Browse with Tor →</a>
+</div>

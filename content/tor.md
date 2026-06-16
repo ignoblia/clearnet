@@ -1,6 +1,13 @@
 ---
-title: Tor — The Onion Router
+title: "Lesson 4: Browse with Tor"
 ---
+
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 4 OF 6</span>
+  <span class="lesson-banner-time">⏱ 5 minutes</span>
+</div>
+
+# Browse with Tor
 
 **Tor** (short for **The Onion Router**) is a free, open-source network designed to provide strong anonymity online. Unlike a VPN or a proxy, which typically route your traffic through a single server, Tor routes your traffic through **three layers of encryption** across **three volunteer-operated relays**, stripping one layer at each hop. This makes it significantly harder to trace traffic back to you — but it also comes with trade-offs in speed and usability.
 
@@ -36,10 +43,6 @@ Tor also hosts **onion services** — websites and services reachable only throu
 - **Anonymity for the visitor** — Access is routed through Tor, providing mutual anonymity.
 - **End-to-end encryption** — Traffic never leaves the Tor network unencrypted (no exit node risk).
 - **Censorship resistance** — .onion sites are extremely difficult to block at the network level.
-
-```
-Client (Tor Browser) → Guard → Middle → Rendezvous Point → Middle → Guard → Onion Service
-```
 
 ---
 
@@ -171,8 +174,7 @@ In some countries, simply running Tor Browser can draw scrutiny from authorities
 
 ---
 
-## Related
-
-- [[vpns|VPNs — Virtual Private Networks]]
-- [[proxies|Proxies — How They Compare]]
-- [[bypass-methods|Overview of Bypass Methods]]
+<div class="lesson-nav">
+  <a href="vpns" class="lesson-nav-prev">← Previous: Use a VPN</a>
+  <a href="proxies" class="lesson-nav-next">Next Lesson: Try Proxies →</a>
+</div>

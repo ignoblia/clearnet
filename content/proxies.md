@@ -1,6 +1,13 @@
 ---
-title: Proxies
+title: "Lesson 5: Try Proxies"
 ---
+
+<div class="lesson-banner">
+  <span class="lesson-banner-label">LESSON 5 OF 6</span>
+  <span class="lesson-banner-time">⏱ 5 minutes</span>
+</div>
+
+# Try Proxies
 
 A **proxy server** acts as an intermediary between your device and the internet. When you use a proxy, your traffic is sent to the proxy server first, which then forwards it to the destination on your behalf. The destination sees the proxy's IP address rather than your own.
 
@@ -154,8 +161,7 @@ Configure `/etc/proxychains4.conf` with a list of proxy servers. A common setup 
 
 ---
 
-## Related
-
-- [[vpns|VPNs — Virtual Private Networks]]
-- [[tor|Tor — The Onion Router]]
-- [[bypass-methods|Overview of Bypass Methods]]
+<div class="lesson-nav">
+  <a href="tor" class="lesson-nav-prev">← Previous: Browse with Tor</a>
+  <a href="bypass-methods" class="lesson-nav-next">Next Lesson: Pick the Right Tool →</a>
+</div>

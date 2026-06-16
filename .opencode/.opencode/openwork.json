@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "workspace": {
+    "name": "Quartz_Clearnet",
+    "createdAt": 1781522969914,
+    "preset": "starter"
+  },
+  "authorizedRoots": [
+    "C:\\Users\\KelechiMwenge\\Desktop\\Quartz_Clearnet"
+  ],
+  "reload": null
+}

@@ -1,0 +1,42 @@
+import { componentRegistry } from "../../quartz/components/registry"
+
+// CustomOgImagesEmitterName constant (from og-image plugin)
+export const CustomOgImagesEmitterName = "CustomOgImages"
+
+// Plugin exports from installed plugins
+export { default as CreatedModifiedDate } from "./created-modified-date"
+export { default as SyntaxHighlighting } from "./syntax-highlighting"
+export { default as ObsidianFlavoredMarkdown } from "./obsidian-flavored-markdown"
+export { default as GithubFlavoredMarkdown } from "./github-flavored-markdown"
+export { default as TableOfContents } from "./table-of-contents"
+export { default as CrawlLinks } from "./crawl-links"
+export { default as Description } from "./description"
+export { default as Latex } from "./latex"
+export { default as Fonts } from "./fonts"
+export { default as RemoveDraft } from "./remove-draft"
+export { default as UnlistedPages } from "./unlisted-pages"
+export { default as AliasRedirects } from "./alias-redirects"
+export { default as ContentIndex } from "./content-index"
+export { default as Favicon } from "./favicon"
+export { default as CustomOgImages } from "./og-image"
+export { default as CNAME } from "./cname"
+export { default as CanvasPage } from "./canvas-page"
+export { default as ContentPage } from "./content-page"
+export { default as FolderPage } from "./folder-page"
+export { default as TagPage } from "./tag-page"
+export { default as Explorer } from "./explorer"
+export { default as Search } from "./search"
+export { default as Backlinks } from "./backlinks"
+export { default as ArticleTitle } from "./article-title"
+export { default as ContentMeta } from "./content-meta"
+export { default as PageTitle } from "./page-title"
+export { default as Darkmode } from "./darkmode"
+export { default as ReaderMode } from "./reader-mode"
+export { default as Breadcrumbs } from "./breadcrumbs"
+export { default as Footer } from "./footer"
+export { default as Spacer } from "./spacer"
+export { default as BasesPage } from "./bases-page"
+export { default as NoteProperties } from "./note-properties"
+
+// Plugins map for overrides
+export const plugins: Record<string, Record<string, (...args: unknown[]) => void>> = {}

@@ -42,7 +42,7 @@ jobs:
         run: npm run install-plugins
 
       - name: Build Quartz
-        run: npx quartz build
+        run: npm run quartz -- build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
